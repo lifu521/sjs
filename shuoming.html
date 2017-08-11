@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="优学网,高清电影,ppt模板,精品软件,网址导航,网盘搜索,镜像谷歌,免费资源" />		
+<meta name="description" content="优学网提供最快捷的资源平台，让你迅速找到想要的资源，准确又方便快捷" />		
+<title>优学网</title>
+<link rel="shortcut icon" href="favicon.ico" />		
+<link href="llxx.css" rel="stylesheet" type="text/css">
+<link href="llxx1.css" rel="stylesheet" type="text/css">
+<link href="llxx2.css" rel="stylesheet" type="text/css">
+<link href='feature.presenter.1.5.css' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+
+<style type="text/css">
+<!--
+a:link {
+	color: #888888;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+<body>
+<div class="top-container">			
+  <div id="top" class="middle">				
+			<div class="top-left">					
+				<a href="index.html" ><img src="http://otd6kilbp.bkt.clouddn.com/zuo.jpg" height="40"></a>				
+				<div class="top-categories">						
+				<ul>							
+				<li><a href="#" target="_blank"></a></li>              
+				<li><a href="#" target="_blank"></a></li>              
+				<li><a href="#" target="_blank"></a></li>              
+				<li><a href="#" target="_blank"></a></li>              
+				<li><a href="#" target="_blank"></a></li>              						
+				</ul>					
+			</div>       				
+	  </div>       				
+		<div class="top-right">										
+			<div class="weather">						
+			<iframe width="300" scrolling="no" height="26" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=1&icon=1&wind=1&num=1&site=12"></iframe>					
+			</div>       					
+		<!--<li class="register"><a href="javascript:;" target="_blank"></a></li>              					
+		<li class="login">	<a href="javascript:;" target="_blank"></a>					</li>-->
+		</div>       			
+  </div>       		
+</div> 
+
+<div id="test-element"></div>
+
+<script src="feature.presenter.1.5.min.js"></script>
+
+<script>
+
+/* 图片地址可以是相对路径或绝对路径；标题和描述可以包含HTML */
+var settings = [ {image: 'http://otd6kilbp.bkt.clouddn.com/t1.jpg', heading: '优学网', description: '<a href="gjss.html">资源工具（点此进入）<p>提供各种在线工具</a>'},
+				{ image: 'http://otd6kilbp.bkt.clouddn.com/y2.jpg', heading: '优学网', description: '<a href="shenghuo.html">生活休闲<p>最新热点随时掌控</a>' },
+				{ image: 'http://otd6kilbp.bkt.clouddn.com/y3.jpg', heading: '优学网', description: '<a href="dianying.html">影视搜索<p>各种VIP视频免费看</a>' },
+				{ image: 'http://otd6kilbp.bkt.clouddn.com/y4.jpg', heading: '优学网', description: '<a href="ppt.html">模板素材<p>优质的图片、PPT、简历模板</a>' },
+				{ image: 'http://otd6kilbp.bkt.clouddn.com/y5.jpg', heading: '优学网', description: '<a href="yinyue.html">爱听音乐<p>好听的在线音乐</a>' },
+				{ image: 'http://otd6kilbp.bkt.clouddn.com/y6.jpg', heading: '优学网', description: '<a href="xuexi.html">学习天堂<p>学生党的福利</a>' }
+				];
+
+var options = {
+	circle_radius: 220,
+	normal_feature_size: 100,
+	highlighted_feature_size: 150,
+	top_margin: 50,
+	bottom_margin: 50,
+	spacing: 40,
+	min_padding: 50,
+	heading_font_size: 30,
+	description_font_size: 20,
+	type: 'image'
+};
+
+var fp = new FeaturePresenter($("#test-element"), settings, options);
+fp.createPresenter();
+
+</script>
+
+
+</body>
+</html>
